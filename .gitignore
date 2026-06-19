@@ -3,3 +3,6 @@
 *.bak.*
 storm-research.bak.*
 *.zip
+.omc/
+**/.omc/
+RELEASE_NOTES.ko.md
