@@ -41,14 +41,13 @@ Modes: **grounded multi-agent** (default), **single-context sequential** (small 
 
 ### Quick install from GitHub
 ```bash
-git clone https://github.com/<your-username>/storm-research-skill.git
+git clone https://github.com/sageraii/storm-research-skill.git
 cd storm-research-skill
 ./install.sh             # personal scope — available in all projects
 # or
 ./install.sh project     # current repository only
 ```
-Replace `<your-username>` with the account hosting this repo. Then restart Claude Code (or
-reload skills) and invoke `/storm-research`.
+Then restart Claude Code (or reload skills) and invoke `/storm-research`.
 
 ### Option A — Personal skill (available in every project) · recommended
 Copy the `storm-research/` folder into your personal skills directory:
