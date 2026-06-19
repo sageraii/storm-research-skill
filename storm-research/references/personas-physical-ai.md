@@ -7,6 +7,10 @@ Every persona returns the same three-part output contract:
 
 Each persona must use the shared evidence pack; do not invent sources.
 
+> **v1.1 note:** These are *seed* perspectives that prime Phase 1 discovery — not a fixed canonical
+> set. The actual perspectives are discovered per topic (Phase 1); use these only to prime or
+> backfill. The "Sixth Perspective" below is likewise just one more candidate seed.
+
 ### 1. The Sim-to-Real Engineer
 Deploys policies on real hardware. Cares about what breaks outside the demo or simulator.
 Driving questions: Where is the sim-to-real gap? How do real sensor noise, latency, calibration

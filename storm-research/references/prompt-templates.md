@@ -1,9 +1,13 @@
-# Prompt Templates
+# Prompt Templates (prompts-only mode — simplified)
 
-Two forms are preserved: four sequential templates (used by the orchestrated pipeline) and one
-combined Compact Execution Prompt (for users who want a single paste). In grounded multi-agent
-mode the orchestrator injects the shared evidence pack into Prompt 1 and carries each phase's
-output into the next; the template text itself is unchanged.
+> **Note:** These templates are the lightweight **prompts-only** path. They use a fixed set of
+> seed personas and a single-pass scan — they intentionally **skip Phase 1 dynamic perspective
+> discovery, the grounded writer↔expert conversation, the moderator, and the outline/mind-map**.
+> They are a simplified single-LLM approximation, **not** the full STORM + Co-STORM article
+> pipeline in `SKILL.md`. Use them only when the user explicitly wants raw prompt scaffolding.
+
+Two forms are provided: four sequential templates and one combined Compact Execution Prompt (for
+users who want a single paste).
 
 ## Prompt 1 — Multi-Perspective Scan
 
